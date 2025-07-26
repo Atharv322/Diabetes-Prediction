@@ -3,8 +3,8 @@
 This project uses machine learning to predict whether a person is diabetic or not based on health parameters such as glucose level, BMI, age, blood pressure, etc.
 
 ## 🚀 Features
-- Trained using the Pima Indians Diabetes Dataset
-- Achieves high accuracy on test data
+- Trained using the Diabetes Dataset
+- Achieves good accuracy on test data
 - Built with Python, Pandas, Scikit-learn
 - Easy-to-use Streamlit web interface
 
