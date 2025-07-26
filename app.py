@@ -6,11 +6,11 @@ import pickle
 st.set_page_config(page_title="Diabetes Prediction", page_icon="🩺", layout="centered")
 
 # Load model
-with open(r"C:\Users\athar\OneDrive\Documents\Desktop\streamlit\diabetes prediction\model.pkl", 'rb') as f:
+with open("model.pkl", 'rb') as f:
     model = pickle.load(f)
 
 # Load scaler
-with open(r"C:\Users\athar\OneDrive\Documents\Desktop\streamlit\diabetes prediction\scaler.pkl", 'rb') as f:
+with open("scaler.pkl", 'rb') as f:
     scaler = pickle.load(f)
 
 # Optional: Load and display image
