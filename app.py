@@ -14,7 +14,7 @@ with open("scaler.pkl", 'rb') as f:
     scaler = pickle.load(f)
 
 # Optional: Load and display image
-st.image(r"C:\Users\athar\OneDrive\Documents\Desktop\streamlit\diabetes prediction\img.jpg", use_container_width=True)
+st.image("img.jpg", use_container_width=True)
 
 # Title and instructions
 st.title("🩺 Diabetes Prediction App")
